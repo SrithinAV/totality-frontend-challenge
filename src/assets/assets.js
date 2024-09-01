@@ -52,11 +52,7 @@ export const desc = [
 
 export const headerList = [
 
-    // {
-    //     img:img1,
-    //     discription:"This is first image",
-    //     id:1
-    // },
+   
     {
         img:img3,
         discription:"This is second image",
@@ -69,27 +65,7 @@ export const headerList = [
             },
         ],
     },
-    // {
-    //     img:img3,
-    //     id:1,
-    //     title:[
-
-    //         {
-    //             heading:"\"Find Your Perfect Home\"",
-    //             desc:" Discover your next chapter with a space that truly feels like home."
-    //         },
-    //         {
-    //             heading:"Your Dream Rental Awaits",
-    //             desc:"Experience comfort, convenience, and community—all in one place",
-        
-    //         },
-    //         {
-    //             heading:"Rent with Confidence",
-    //             desc:"Where quality living meets peace of mind"
-    //         },
-        
-    //     ]
-    // }
+   
 ]
 
 export const housesData = [
