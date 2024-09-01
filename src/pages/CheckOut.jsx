@@ -125,15 +125,19 @@ const CheckOut = () => {
           <p className='md:text-[35px] text-[18px] text-Accent font-bold text-center mb-8'>payment Details</p>
           
           <div className='flex flex-col'>
-              <div className='w-full flex md:flex-row flex-col justify-between items-center '>
+              <div className='w-full flex md:flex-row flex-col justify-between md:gap-y-0 gap-y-4   '>
                 <div onClick={ () => setSelect(!select)} className={!select ? 'cursor-pointer flex gap-3 items-center bg-white text-Primary px-6 py-3 rounded-md' :' cursor-pointer flex gap-3 items-center bg-Primary text-white px-6 py-3 rounded-md'}> 
                 <CiCreditCard1 />
                 <p>Credit Card</p>
                 {select && <IoIosCheckmarkCircleOutline className='text-xl font-bold' color='green' /> }
                 </div>
-                <div  onClick={ () => setSelect(!select)} className=   {select ?' cursor-pointer flex gap-3 ml-3 md:px-14 py-4  rounded-md bg-white':'cursor-pointer flex gap-3 ml-3 md:px-14 py-4  rounded-md bg-Primary text-white'}>
-                  <img className='w-10 ' src={Upi} alt="" />
-                  {!select && <IoIosCheckmarkCircleOutline className='text-xl font-bold' color='green' /> }
+                <div  onClick={ () => setSelect(!select)} className=   {select ?' cursor-pointer  items-center flex gap-3 ml-3 md:px-14 py-4  rounded-md bg-white':'cursor-pointer flex gap-3 ml-3 md:px-14 py-4  rounded-md bg-Primary text-white'}>
+                  
+                  <div className = 'flex justify-center items-center md:max-w-[50px] max-w-[30px]'>
+                  <img className='' src={Upi} alt="" />
+                  </div>
+                  
+                 
                 </div>
               </div>
 

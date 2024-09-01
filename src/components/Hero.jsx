@@ -39,7 +39,7 @@ const Hero = () => {
 
 
   return (
-    <div className='mt-10 relative'>
+    <div className='mt-10 relative mb-4'>
        
         <div className='flex md:flex-row flex-col justify-between items-center '>
             <div>

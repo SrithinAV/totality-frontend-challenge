@@ -91,11 +91,11 @@ const PropertyDetails = () => {
                 <div className='flex justify-center items-center text-Accent md:text-lg text-base font-bold '>{house.title}</div>
                 </div>
                 <img className='' src={house.image} alt="" />
-                <div className='rounded-b-xl bg-[#c9c9c9] text-primary px-6 py-3 w-full md:text-[22px] text-[16px] font-semibold flex gap-3 justify-between mt-0'> 
-                <div className='flex gap-4 items-center'><FaIndianRupeeSign className='md:text-[22px] text-[22px]' />{house.price}</div>
-                    <div className='flex gap-4 items-center'><BiBed className='md:text-[30px] text-[22px]' />{house.bedrooms}</div>
-                    <div className='flex gap-4 items-center'><BiBath  className='md:text-[30px] text-[22px]'  />{house.bathroom}</div>
-                    <div className='flex gap-4 items-center'><BiArea  className='md:text-[30px]text-[22px]' />{house.area}</div>
+                <div className='rounded-b-xl bg-[#c9c9c9] text-primary px-6 py-3 w-full md:text-[22px] text-[14px] font-semibold flex gap-3 justify-between mt-0'> 
+                <div className='flex md:gap-4 gap-2 items-center'>₹{house.price}</div>
+                    <div className='flex md:gap-4 gap-2 items-center'><BiBed className='md:text-[30px] text-[22px]' />{house.bedrooms}</div>
+                    <div className='flex md:gap-4 gap-2 items-center'><BiBath  className='md:text-[30px] text-[22px]'  />{house.bathroom}</div>
+                    <div className='flex md:gap-4 gap-2 items-center'><BiArea  className='md:text-[30px] text-[22px]' />{house.area}</div>
                 </div>
 
             </div>

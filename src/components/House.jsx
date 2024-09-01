@@ -14,14 +14,14 @@ const House = ({house}) => {
   }
  
   return (
-    <div className='z-20 bg-white shadow-1 px-5 pt-5 rounded-xl  w-full max-w-[352px] mx-auto cursor-pointer hover:shadow-2xl transition'>
+    <div className='z-20 md:mt-0 mt-4 bg-white shadow-1 px-5 pt-5 rounded-xl  w-full max-w-[352px] mx-auto cursor-pointer hover:shadow-2xl transition'>
      <img className='mb-4 rounded-sm' src={image} alt="" />
      <div className='mb-4 flex gap-x-2 text-sm justify-between'>
       <div className='font-bold text-[18px]'>₹ {price}</div>
       <div className='flex gap-3'>
-      <div className= ' flex text-[18px] items-center '><BiBed className='text-Primary' />{bedrooms}</div>
-      <div className= ' flex text-[18px] items-center '><BiBath className='text-Primary' />{bathroom}</div>
-      <div className= ' flex text-[18px] items-center '><BiArea className='text-Primary' />{area}</div>
+      <div className= ' flex md:text-[18px] text-[10px] items-center '><BiBed className='text-Primary' />{bedrooms}</div>
+      <div className= ' flex md:text-[18px] text-[10px]  items-center '><BiBath className='text-Primary' />{bathroom}</div>
+      <div className= ' flex md:text-[18px] text-[10px] items-center '><BiArea className='text-Primary' />{area}</div>
       </div>
      </div>
 
