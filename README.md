@@ -7,6 +7,10 @@ https://totalityassignment.netlify.app/
 ## Overview
 Welcome to the Property Rental Website project! This web application allows users to browse and rent properties. It is built using React.js for the frontend, Tailwind CSS for styling, GSAP for animations, along with standard HTML, CSS, and JavaScript.
 
+## Aproach
+
+I started by analyzing various property rental websites to understand common features and user expectations. Based on this research, I planned the project structure, focusing on a responsive design and intuitive user interface.
+
 ## Technologies Used
 
 - **React.js**: A JavaScript library for building user interfaces.
