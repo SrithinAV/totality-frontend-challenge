@@ -1,5 +1,5 @@
 # Totality Corp Assignment
-https://github.com/user-attachments/assets/29cf7ec8-11d0-4018-8733-4dcf58158639
+![ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/01581cd9-7efb-47c1-a81e-12f6b7579d6e)
 
 ## Deployed link
 https://totalityassignment.netlify.app/
