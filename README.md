@@ -1,8 +1,17 @@
-# React + Vite
+# Totality Corp Assignment
+Welcome to the Property Rental Website project! This web application allows users to browse and rent properties. It is built using React.js for the frontend, Tailwind CSS for styling, GSAP for animations, along with standard HTML, CSS, and JavaScript.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Deployed link
+https://totalityassignment.netlify.app/
 
-Currently, two official plugins are available:
+##Overview
+Welcome to the Property Rental Website project! This web application allows users to browse and rent properties. It is built using React.js for the frontend, Tailwind CSS for styling, GSAP for animations, along with standard HTML, CSS, and JavaScript.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+
+React.js: A JavaScript library for building user interfaces.
+Tailwind CSS: A utility-first CSS framework for styling.
+GSAP (GreenSock Animation Platform): A powerful library for creating animations.
+HTML5: Markup language used for structuring the web pages.
+CSS3: Stylesheet language used for describing the presentation of the web pages.
+JavaScript (ES6+): Programming language used to add interactivity to the web pages.
