@@ -1,15 +1,15 @@
 import React, { useState } from 'react'
 import './SignInPopUp.css'
 import { assets } from '../../assets/assets'
-// import axios from 'axios'
+
 import { useContext } from 'react';
-// import { StoreContext } from '../../context/storeContext';
+
 
 
 const SignInPopUp = ({setSignIn}) => {
   const [isSignIN, setIsSignIN] = useState(false)
   
-  // const {setTocken, Url} = useContext(StoreContext);
+
   
    const [data, setData] = useState({
     name:"",
