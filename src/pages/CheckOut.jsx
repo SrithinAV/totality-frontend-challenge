@@ -140,6 +140,8 @@ const CheckOut = () => {
                  
                 </div>
               </div>
+            {select ?
+              <div>
 
               <div className=' mt-6  flex flex-col gap-1'>
                 <p className='font-bold' >Card Detail</p>
@@ -169,6 +171,14 @@ const CheckOut = () => {
                 <input type="checkbox" />
                 <p className='font-bold '>Securly save this card for future payment</p>
               </div>
+              </div> : <div className='mt-6'>
+
+                <div className='flex flex-col gap-1' >
+                  <p className='font-bold'>UPI ID or Phone number</p>
+                  <input className='text-center px-6 py-2 rounded-md' type="text" placeholder='UPI ID or Phone number' />
+                </div>
+              </div>
+}
           </div>
           
           <div className='flex justify-center items-center'>
