@@ -8,6 +8,16 @@ const Navbar = ({setSignIn, signIn}) => {
  
     const {addCart,setAddCart} = useContext(HouseContext);
     const userName = sessionStorage.getItem("name");
+    const email = sessionStorage.getItem("email");
+    let namePart = userName;
+
+    if(!userName && email)
+    {
+       namePart = email.split('@')[0];
+    }
+    
+    
+
 
     return (
         <div className='mt-2 flex justify-between items-center'>
@@ -28,10 +38,10 @@ const Navbar = ({setSignIn, signIn}) => {
             <Link className='' to="/cart"><MdOutlineRealEstateAgent className='text-4xl cursor-pointer' /></Link>
            { addCart.length > 0 && <p className='text-green-800 text-xl font-bold'>{addCart.length}</p> }
        </div>
-       {userName ? (
+       {namePart ? (
       // Display the user's name if they are logged in
-      <span className='text-lg text-Secondary bg-Primary md:px-5 px-3 md:py-2 py-1 rounded-md font-normal'>
-        Hi, {userName}!
+      <span className='md:text-lg text-base text-Secondary bg-Primary md:px-5 px-3 md:py-2 py-1 rounded-md font-normal'>
+        Hi, {namePart}!
       </span>
     ) : (
       
